@@ -1,5 +1,8 @@
 export default {
-  preset: 'ts-jest',
+  testEnvironment: 'jsdom',
+  transform: {
+    '^.+\\.js?$': 'babel-jest',
+  },
   clearMocks: true,
 
   collectCoverage: false,
@@ -19,12 +22,10 @@ export default {
     'node',
   ],
   // testMatch: ["**/?(*.)+(spec|test).[tj]s?(x)"],
-  testEnvironment: 'jest-environment-jsdom',
+  testEnvironment: 'jsdom',
 
+  setupFilesAfterEnv: ['<rootDir>/testSetup.js'],
   testPathIgnorePatterns: ['/node_modules/'],
 
   transformIgnorePatterns: ['/node_modules/'],
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest',
-  },
 };
