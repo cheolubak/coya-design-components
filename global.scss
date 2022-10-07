@@ -1,0 +1,19 @@
+@import '~sanitize.css';
+@import '~sanitize.css/forms.css';
+@import '~sanitize.css/typography.css';
+
+:root {
+  --COLOR_PRIMARY: #070508;
+  --COLOR_PRIMARY_HOVER: #34253b;
+  --COLOR_PRIMARY_ACTIVE: #271630;
+  --COLOR_SECONDARY: #6d7df7;
+  --COLOR_SECONDARY_HOVER: #818ffc;
+  --COLOR_SECONDARY_ACTIVE: #5a6cfd;
+  --COLOR_WARNING: #b00002;
+  --COLOR_WARNING_HOVER: #cc0204;
+  --COLOR_WARNING_ACTIVE: #9c0304;
+  --COLOR_BLACK: #000;
+  --OLOR_WHITE: #FFF;
+  --COLOR_NETURAL: #959ab0;
+  --COLOR_NETURAL2: #dadffc;
+}
