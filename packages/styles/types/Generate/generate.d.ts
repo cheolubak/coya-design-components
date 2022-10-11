@@ -1,0 +1,1 @@
+declare function generateStyles(): () => void;

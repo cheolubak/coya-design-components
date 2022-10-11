@@ -1,0 +1,11 @@
+{
+  "name": "@coya/components",
+  "version": "0.1.0",
+  "description": "Coya Design System Components",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo TEST"
+  },
+  "dependencies": {}
+}

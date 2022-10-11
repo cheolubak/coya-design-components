@@ -1,0 +1,13 @@
+{
+  "name": "@coya/styles",
+  "version": "0.1.0",
+  "description": "Coya Design System Styles",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "license": "MIT",
+  "dependencies": {},
+  "files": [
+    "src",
+    "types/*.d.ts"
+  ]
+}
